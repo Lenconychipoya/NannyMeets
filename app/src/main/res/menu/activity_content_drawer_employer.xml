@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item android:title="@string/account">
+            <menu>
+                <item
+                    android:id="@+id/nav_preferred_employees"
+                    android:title="@string/preferred_employees" />
+                <item
+                    android:id="@+id/nav_manage"
+                    android:title="@string/my_profile" />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="@string/communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:title="@string/send" />
+            </menu>
+        </item>
+    </group>
+
+    <group>
+        <item android:title="System">
+            <menu>
+                <item
+                    android:id="@+id/nav_language"
+                    android:title="Language" />
+
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:title="Log Out" />
+            </menu>
+        </item>
+
+
+    </group>
+
+</menu>

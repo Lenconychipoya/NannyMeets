@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "103611292562",
+    "firebase_url": "https://nannymeets-26b67.firebaseio.com",
+    "project_id": "nannymeets-26b67",
+    "storage_bucket": "nannymeets-26b67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103611292562:android:772fbb629c387bd7",
+        "android_client_info": {
+          "package_name": "zw.co.appsareus.nannymeets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103611292562-9s6t929kn690jn6sme64t3h89uu3qudc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zw.co.appsareus.nannymeets",
+            "certificate_hash": "4c75b13ecd97bd1114c344c71e91dc4b68d9db95"
+          }
+        },
+        {
+          "client_id": "103611292562-grdk6jcj5aasimdjdf8eih63bht5u572.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zw.co.appsareus.nannymeets",
+            "certificate_hash": "400d67ce581fac93ef5cdad4b804add749b74646"
+          }
+        },
+        {
+          "client_id": "103611292562-di488ikq131dt7t6os8lqc5i4q5ush3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByR-_giuojq5u8Xbiv8B-IF5BeMwmBPYs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103611292562-di488ikq131dt7t6os8lqc5i4q5ush3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
