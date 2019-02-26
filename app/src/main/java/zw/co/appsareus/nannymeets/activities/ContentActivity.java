@@ -42,8 +42,6 @@ public class ContentActivity extends BaseActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content);
-
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");
@@ -85,17 +83,14 @@ public class ContentActivity extends BaseActivity
             navigationView.inflateMenu(R.menu.activity_content_drawer_employee);
 
             employeeHomeFragment = EmployeeHomeFragment.newInstance();
-            fragmentTransaction.replace(R.id.my_content, employeeHomeFragment);
             employeeHomeFragment.setOnOpenProfileListener(new EmployeeHomeFragment.OnOpenProfileListener() {
                 @Override
                 public void onOpenProfile() {
                     startActivity(new Intent(ContentActivity.this, SettingsActivity.class));
-
                 }
             });
-
-        } else  {
-            accountType=EMPLOYER;
+            fragmentTransaction.replace(R.id.my_content, employeeHomeFragment);
+        } else if (accountType.equals(EMPLOYER)) {
             toolbar.setVisibility(View.VISIBLE);
             setSupportActionBar(toolbar);
 

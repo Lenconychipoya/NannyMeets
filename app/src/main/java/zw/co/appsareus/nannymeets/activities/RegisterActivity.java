@@ -214,28 +214,15 @@ public class RegisterActivity extends BaseActivity implements OnRegisterListener
     public void onUserRegistered() {
         llLoader.setVisibility(View.GONE);
         mHelper.setAccountType(accountType);
-
-        //Registration successfully
-
         Toast.makeText(this,"Registration Successful.",Toast.LENGTH_LONG).show();
         Intent intent = new Intent(RegisterActivity.this,ContentActivity.class);
-        intent.putExtra("user_type", mHelper.getAccountType());
         startActivity(intent);
-
-
-       /* Bundle extras = new Bundle();
-        extras.putString("user_type", mHelper.getAccountType());
-        Intent intent = new Intent(this, ContentActivity.class);
-       intent.putExtras(extras);
-        startActivity(intent);*/
+        finish();
     }
-
 
     @Override
     public void onUserRegistrationFailed(String error) {
         llLoader.setVisibility(View.GONE);
-
-        // registration failed
         Toast.makeText(this, "Failed to register, please try again later. " + error, Toast.LENGTH_SHORT).show();
         Log.e(TAG, "onUserRegistrationFailed: "+error);
     }
