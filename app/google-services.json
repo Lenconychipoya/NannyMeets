@@ -31,6 +31,14 @@
           }
         },
         {
+          "client_id": "103611292562-3o6nb42h07jmq756sg06o43l3tb64ml6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zw.co.appsareus.nannymeets",
+            "certificate_hash": "564eeb53d933dd6c000a8b977cc58dd1c32b52c5"
+          }
+        },
+        {
           "client_id": "103611292562-di488ikq131dt7t6os8lqc5i4q5ush3n.apps.googleusercontent.com",
           "client_type": 3
         }

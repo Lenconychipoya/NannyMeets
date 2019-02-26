@@ -48,6 +48,7 @@ public class LoginActivity extends BaseActivity implements OnLoginListener {
         startActivity(intent);
     }
 
+
     private void setup(){
 
         //btnEmployee = findViewById(R.id.btn_employee);
