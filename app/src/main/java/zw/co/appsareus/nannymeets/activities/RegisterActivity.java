@@ -207,8 +207,8 @@ public class RegisterActivity extends BaseActivity implements OnRegisterListener
 
     }
     /**
-     * Begin of Implemented Methods
-     * */
+      Begin of Implemented Methods
+     */
 
     @Override
     public void onUserRegistered() {
@@ -228,6 +228,6 @@ public class RegisterActivity extends BaseActivity implements OnRegisterListener
     }
 
     /**
-     * End of Implemented Methods
-     * */
+      End of Implemented Methods
+     */
 }
